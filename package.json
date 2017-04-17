@@ -1,1 +1,40 @@
-{     "devDependencies": {         "generator-express": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-generator-express",     "homepage": "https://github.com/npmtest/node-npmtest-generator-express",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-generator-express.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "test coverage for [generator-express (v2.15.0)](https://github.com/petecoop/generator-express) [![npm package](https://img.shields.io/npm/v/npmtest-generator-express.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-generator-express) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-generator-express.svg)](https://travis-ci.org/npmtest/node-npmtest-generator-express)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "generator-express": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-generator-express",
+    "keywords": [
+        "coverage",
+        "test",
+        "generator-express"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_generator_express.js",
+    "name": "npmtest-generator-express",
+    "nameAlias": "npmtest_generator_express",
+    "nameOriginal": "npmtest-generator-express",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-generator-express.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
