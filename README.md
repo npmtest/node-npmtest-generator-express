@@ -1,4 +1,7 @@
-# test coverage for  [generator-express (v2.15.0)](https://github.com/petecoop/generator-express)  [![npm package](https://img.shields.io/npm/v/npmtest-generator-express.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-generator-express) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-generator-express.svg)](https://travis-ci.org/npmtest/node-npmtest-generator-express)
+# npmtest-generator-express
+
+#### test coverage for  [generator-express (v2.15.0)](https://github.com/petecoop/generator-express)  [![npm package](https://img.shields.io/npm/v/npmtest-generator-express.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-generator-express) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-generator-express.svg)](https://travis-ci.org/npmtest/node-npmtest-generator-express)
+
 #### A nodejs express generator for Yeoman
 
 [![NPM](https://nodei.co/npm/generator-express.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/generator-express)
