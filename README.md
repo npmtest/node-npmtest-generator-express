@@ -1,6 +1,6 @@
 # npmtest-generator-express
 
-#### test coverage for  [generator-express (v2.15.0)](https://github.com/petecoop/generator-express)  [![npm package](https://img.shields.io/npm/v/npmtest-generator-express.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-generator-express) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-generator-express.svg)](https://travis-ci.org/npmtest/node-npmtest-generator-express)
+#### basic test coverage for  [generator-express (v2.15.0)](https://github.com/petecoop/generator-express)  [![npm package](https://img.shields.io/npm/v/npmtest-generator-express.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-generator-express) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-generator-express.svg)](https://travis-ci.org/npmtest/node-npmtest-generator-express)
 
 #### A nodejs express generator for Yeoman
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-generator-express/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-generator-express/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-generator-express/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-generator-express/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-generator-express/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-generator-express/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-generator-express/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-generator-express/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-generator-express/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-generator-express/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-generator-express/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-generator-express/build/coverage.html/index.html)
 
@@ -99,7 +99,8 @@
         "test:generate:basic": "mkdir temp; cd temp && yo express --createDirectory true --dirname one --basic true --viewEngine handlebars --cssPreprocessor css --buildTool gulp && cd one && npm run test:coverage",
         "test:generate:mvc": "mkdir temp; cd temp && yo express --createDirectory true --dirname two --mvc true --viewEngine handlebars --cssPreprocessor css --database sqlite --buildTool gulp && cd two && npm run test:coverage"
     },
-    "version": "2.15.0"
+    "version": "2.15.0",
+    "bin": {}
 }
 ```
 
