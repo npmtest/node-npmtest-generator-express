@@ -44,8 +44,8 @@
 <tspan x="10" y="666">    │   └── isexe@2.0.0 </tspan>
 <tspan x="10" y="682">    ├── dargs@5.1.0 </tspan>
 <tspan x="10" y="698">    ├── dateformat@2.0.0 </tspan>
-<tspan x="10" y="714">    ├─┬ debug@2.6.3 </tspan>
-<tspan x="10" y="730">    │ └── ms@0.7.2 </tspan>
+<tspan x="10" y="714">    ├─┬ debug@2.6.5 </tspan>
+<tspan x="10" y="730">    │ └── ms@0.7.3 </tspan>
 <tspan x="10" y="746">    ├── detect-conflict@1.0.1 </tspan>
 <tspan x="10" y="762">    ├─┬ error@7.0.2 </tspan>
 <tspan x="10" y="778">    │ ├── string-template@0.2.1 </tspan>
@@ -73,7 +73,7 @@
 <tspan x="10" y="1130">    ├─┬ istextorbinary@2.1.0 </tspan>
 <tspan x="10" y="1146">    │ ├── binaryextensions@2.0.0 </tspan>
 <tspan x="10" y="1162">    │ ├── editions@1.3.3 </tspan>
-<tspan x="10" y="1178">    │ └── textextensions@2.0.1 </tspan>
+<tspan x="10" y="1178">    │ └── textextensions@2.1.0 </tspan>
 <tspan x="10" y="1194">    ├── lodash@4.17.4 </tspan>
 <tspan x="10" y="1210">    ├─┬ mem-fs-editor@3.0.2 </tspan>
 <tspan x="10" y="1226">    │ ├── commondir@1.0.1 </tspan>
@@ -109,7 +109,7 @@
 <tspan x="10" y="1706">    │   │ │ └─┬ error-ex@1.3.1 </tspan>
 <tspan x="10" y="1722">    │   │ │   └── is-arrayish@0.2.1 </tspan>
 <tspan x="10" y="1738">    │   │ └── strip-bom@3.0.0 </tspan>
-<tspan x="10" y="1754">    │   ├─┬ normalize-package-data@2.3.6 </tspan>
+<tspan x="10" y="1754">    │   ├─┬ normalize-package-data@2.3.8 </tspan>
 <tspan x="10" y="1770">    │   │ ├── hosted-git-info@2.4.2 </tspan>
 <tspan x="10" y="1786">    │   │ ├─┬ is-builtin-module@1.0.0 </tspan>
 <tspan x="10" y="1802">    │   │ │ └── builtin-modules@1.1.1 </tspan>
@@ -125,7 +125,7 @@
 <tspan x="10" y="1962">    ├─┬ shelljs@0.7.7 </tspan>
 <tspan x="10" y="1978">    │ ├── interpret@1.0.3 </tspan>
 <tspan x="10" y="1994">    │ └─┬ rechoir@0.6.2 </tspan>
-<tspan x="10" y="2010">    │   └─┬ resolve@1.3.2 </tspan>
+<tspan x="10" y="2010">    │   └─┬ resolve@1.3.3 </tspan>
 <tspan x="10" y="2026">    │     └── path-parse@1.0.5 </tspan>
 <tspan x="10" y="2042">    ├── text-table@0.2.0 </tspan>
 <tspan x="10" y="2058">    ├─┬ through2@2.0.3 </tspan>
